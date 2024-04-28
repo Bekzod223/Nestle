@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.mainav{
+    height: 234px;}
+
+.nav1{
+    height: 180px;
+}
+
+.navbar-brand img{
+    margin: 50px 220px;
+}
+
+.form-control {
+    margin-right: 100px;
+    color: #30261D;
+    border: none;
+    border-bottom: 2px solid #63513D;
+    width: 370px;
+    height: 60px;
+}
+
+.nav2{
+    background-color: #F6F5F4;
+}
