@@ -17,11 +17,16 @@
 
 .form-control {
     margin-right: 100px;
-    color: #30261D;
     border: none;
     border-bottom: 2px solid #63513D;
     width: 370px;
     height: 60px;
+}
+.fa-solid{
+    position: relative;
+    right: 120px;
+    top: 25px;
+    font-size: 21px;
 }
 
 .nav2{
@@ -68,4 +73,43 @@ font-size: 62.8px;
 }
 .carousel-inner p{
     font-size: 23.36px;
+}
+
+#check {
+    display: none;
+  }
+
+  .checkbtn {
+    font-size: 30px;
+    color: white;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+  }
+
+@media screen and (max-width:800px) {
+    .navbar-brand img{
+        margin: 70px 0px;
+        width: 150px;
+    }  
+
+    .checkbtn {
+        display: block;
+        a.active,
+        a:hover {
+          background: #2197f2;
+          transition: 0.5s;
+        }
+      }
+
+      .form-control{
+        display: none;
+      }
+
+    .fa-solid{
+        margin-top: 160px;
+    }
+
 }
