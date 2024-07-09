@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -24,8 +26,6 @@
 }
 .fa-solid{
     position: relative;
-    right: 120px;
-    top: 25px;
     font-size: 21px;
 }
 
@@ -66,6 +66,9 @@
     width: 50px;
     height: 50px;
     margin-top: 300px;
+}
+.carousel-item img{
+    width: 100%;
 }
 
 .carousel-inner h5{
@@ -113,3 +116,283 @@ font-size: 62.8px;
     }
 
 }
+
+.card{
+    width: 369px;
+    height: 432px;
+    margin-left: 20px;
+    box-shadow: 1px 1px 10px  rgb(140, 140, 140);
+}
+
+.card:hover{
+    box-shadow: 3px 3px 15px  rgb(140, 140, 140);
+}
+
+.sec2{
+  display: flex;  
+  margin: 50px 140px;
+}
+
+.card-title{
+    font-size: 27px;
+    margin-top: 10px;
+}
+
+.btn{
+    background-color: transparent;
+    color: blue;
+    border: none;
+    margin-top: 30px;
+
+}
+
+.sec3{
+    width: 100%;
+    height: 276px;
+    background-color: #A50064;
+}
+
+.news{
+    display: flex;
+    color: #F6F5F4;
+    position: relative;
+    top: 90px;
+    left: 110px;
+}
+
+.dunno{
+    margin-left: 200px;
+    cursor: pointer;
+
+}
+
+.header button{
+    background-color: transparent;
+    color: #F6F5F4;
+    border:1px solid #F6F5F4;
+    width: 130px;
+    height: 40px;
+}
+
+.wiper{
+    background-color: #F6F5F4;
+    border-radius: 25px;
+    width: 1536px;
+    height: 741px;
+    margin-top: 80px;
+    margin-left: 190px;
+}
+
+#cart{
+    margin-top: 120px;
+}
+
+.discover{
+    text-align: center;
+    position: relative;
+    top: 70px;
+    color: #34220D;
+    font-weight: 100;
+}
+
+.mySwiper{
+    width: 1340px;
+    margin-left: 60px;
+}
+
+.swooper button{
+    background-color: #007CBA;
+    width: 119px;
+    height: 36px;
+    color: #F6F5F4;
+    border:1px solid #F6F5F4;
+    width: 130px;
+    height: 40px;
+    margin: 50px 670px;
+}
+.swooper button:hover{
+    background-color: #04608e;
+}
+
+.sponsors{
+    margin-top: 50px;
+}
+
+.sponsors img{
+    border-radius: 250px;
+    width: 164px;
+    margin: 20px 50px;
+    box-shadow: 2px 2px 10px #686868;
+}
+.sponsors img:hover{
+    transform: scale(1) translateY(-10%);
+    transition: all ease 500ms;
+}
+
+.explore{
+    color: #63513D;
+    text-align: center;
+    font-size: 35px;
+    position: relative;
+    top: 30px;
+}
+
+.explore span{
+    font-family: "Caveat", cursive;
+    font-size: 36px;
+    font-weight: 900;
+    color: #34220D;
+}
+
+.mySwiperr{
+    width: 1540px;
+    height: 250px;
+    margin: 60px 150px;
+}
+
+.sponsors button{
+    color: #007CBA;
+    width: 119px;
+    height: 36px;
+    background-color: transparent;
+    border:1px solid #007CBA;
+    width: 130px;
+    height: 40px;
+    margin: 0px 850px;
+}
+.sponsors button:hover{
+    background-color: #8fc9e6;
+}
+
+.nesnews{
+    background-color: #007CBA;
+    height: 318px;
+}
+
+.allnews{
+    display: flex;
+    color: white;
+    margin: 30px 50px;
+    padding-top: 50px;
+}
+
+.nyus{
+    margin-left: 150px;
+}
+
+.nyus h1{
+    font-size: 21px;
+    
+}
+
+.nyus p{
+    font-size: 15px;
+}
+
+.nyus img{
+    width: 312px;
+    height: 213px;
+    filter: brightness(40);
+}
+.nyus img:hover{
+    filter: grayscale(0);
+}
+
+.newbtn{
+    background-color: transparent;
+    color: #F6F5F4;
+    border:1px solid #F6F5F4;
+    width: 100px;
+    height: 40px;
+}
+.newbtn:hover {
+    background-color: #0c5d85;
+}
+
+.signup{
+        background-color: white;
+        color: #007CBA;
+        border:1px solid #89a5b8;
+        width: 100px;
+        height: 40px;
+    }
+    .signup:hover{
+        background-color: #9fc4d6;
+    }
+
+    .flex1{
+        display: flex;
+        margin: 40px 150px;
+        height: 200px;
+    }
+    .flex2{
+        display: flex;
+        margin-left: 500px;
+    }
+
+    .futhead{
+        width: 361px;
+        height: 458px;
+    }
+
+    .lists{
+        width: 261px;
+        height: 100px;
+        margin-left: 80px;
+    }
+
+    footer h4{
+        font-size: 16px;
+        margin-left: 30px;
+        color: #63513D;
+    }
+
+    footer li{
+        font-size: 14px;
+        margin-top: 10px;
+        cursor: pointer;
+    }
+
+    footer li:hover {
+        color: #2197f2;
+    }
+
+    .futhead p{
+        font-size: 24px;
+    }
+
+    .futhead h1{
+        color: #63513D;
+        font-size: 25px;
+    }
+
+    .social{
+        margin: 180px 800px;
+    }
+
+    .social i{
+        background-color: #007CBA;
+        font-size: 24px;
+        color: white;
+        border: 8px solid #007CBA;
+        border-radius: 50px;
+        filter: grayscale(100%);
+        cursor: pointer;
+        
+    }
+
+    .social i:hover{
+        filter: grayscale(0);
+    }
+
+    .social h1{
+        font-size: 35px;
+        color: #34220D;
+        font-family: "Caveat", cursive;
+        margin-left: 55px;
+        
+    }
+
+    .smedia{
+        width: 500px;
+    }
